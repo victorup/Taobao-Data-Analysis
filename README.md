@@ -12,18 +12,22 @@
 - 使用selemiun浏览器自动化测试框架。
 - 请求网页的url，获取网页的源代码。
 
+![image]()
 图1 淘宝网url
 
 - 分网页商品信息。查找商品的image, price, deal, title, shop, location等信息
 
+![image]()
 图2 淘宝商品页面信息
 
 - 使用pyquery库解析网页源代码，利用CSS选择器获取网页元素。
 
+![image]()
 图3网页源代码
 
 - 将爬取结果以字典形式保存。
 
+![image]()
 图4 爬取结果显示
 
 ## 课题数据的预处理过程及多源异构融合
@@ -33,15 +37,18 @@
 - 删除重复值
 - 数值类型转换
 
+![image]()
 图5 数据处理
 
 ## 课题数据的存储过程及工具
 - 首先安装了mongodb数据库，配置了环境变量等一系列设置
 
+![image]()
 图6 保存mongodb代码
 
 - 然后利用上述代码将爬取到的商品数据保存到mongodb
 
+![image]()
 图7 mongodb存储结果
 
 - 所用工具：mongodb非关系性数据库
@@ -52,39 +59,53 @@
 - 分析结果：
 1) 词频分析
 
-![image](https://github.com/victorup/Taobao-Data-Analysis/blob/master/images/apple_word_count.png)
+![image](https://github.com/victorup/Taobao-Data-Analysis/blob/master/images/%E8%8B%B9%E6%9E%9C%E8%AF%8D%E4%BA%91%E5%9B%BE.png)
+
+![image]()
 图8 词云分析可视化
 
 2) 北上广店铺数量普遍较多，其中广东的店铺数量最多；
 
+![image](https://github.com/victorup/Taobao-Data-Analysis/blob/master/images/%E5%BA%97%E9%93%BA%E5%88%86%E5%B8%83%E6%9F%B1%E7%8A%B6%E5%9B%BE.png)
 图9 店铺分布柱状图
 
 3) 第一名店铺销量最好，相比后四名要高出4倍左右；
+
+![image](https://github.com/victorup/Taobao-Data-Analysis/blob/master/images/%E5%89%8D%E4%BA%94%E5%90%8D%E5%BA%97%E9%93%BA%E5%8F%8A%E4%BA%A4%E6%98%93%E9%87%8F%E7%82%B9%E7%BA%BF%E5%9B%BE.png)
 
 图10 前五名店铺及交易量点线图
 
 4) 广东的交易量是最多的，占到总体交易量的86%；
 
+![image](https://github.com/victorup/Taobao-Data-Analysis/blob/master/images/%E5%90%84%E7%9C%81%E4%BA%A4%E6%98%93%E5%88%86%E5%B8%83%E9%A5%BC%E5%9B%BE.png)
+
 图11 各省交易量分布饼图
 
 5) 利用地图可清晰比较出各省的交易量分布，广东占比最大；
+
+![image](https://github.com/victorup/Taobao-Data-Analysis/blob/master/images/%E5%90%84%E7%9C%81%E4%BA%A4%E6%98%93%E9%87%8F%E5%88%86%E5%B8%83%E5%9C%B0%E5%9B%BE.png)
 
 图12 各省交易量分布地图
 
 6) 根据聚类结果的数量可以看出，商品价格主要集中在2000-4000元之间，为主流销售产品（蓝色图标）；绿色五角星图标为新发布产品，价格普遍偏高；红色图标为商品的衍生物（如ipad保护膜、保护壳等）。
 
+![image](https://github.com/victorup/Taobao-Data-Analysis/blob/master/images/ipad%E4%BB%B7%E6%A0%BCKmeans%E8%81%9A%E7%B1%BB.png)
+
 图13 ipad价格Kmeans聚类结果
 
 7) 江西macbook和ipad销量最大，然而dell相对较低。而甘肃价格最低，说明甘肃相对来说电子产业并不起色。
 
+![image]()
 图14 各地区最高价最低价均值对比
 
 8) 苹果产品广受大众欢迎，其中ipad小巧方便，易携带，购买人数最多；联想相对于戴尔性价比高一些，所以购买人数也较多。
 
+![image]()
 图15商品平均交易量对比饼图
 
 9) ipad最便宜，购买人数最多；macbook均价最高；dell价格最高，购买人数最少，lenovo性价比最高。人傻钱多戴，美帝良心想。
 
+![image]()
 图16 商品价格及交易量气泡图
 
 ## 课题数据的可视化过程及工具
