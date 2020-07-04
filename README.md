@@ -52,7 +52,7 @@
 - 分析结果：
 1) 词频分析
 
-![image](http://https://github.com/victorup/Taobao-Data-Analysis/blob/master/images/%E8%8B%B9%E6%9E%9C%E8%AF%8D%E4%BA%91%E5%9B%BE.png)
+![image](https://github.com/victorup/Taobao-Data-Analysis/blob/master/images/apple_word_count.png)
 图8 词云分析可视化
 
 2) 北上广店铺数量普遍较多，其中广东的店铺数量最多；
