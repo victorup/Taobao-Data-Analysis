@@ -111,7 +111,7 @@
 
 10) 根据用户的输入条件，从数据库中找到与要求匹配的商品进行推荐
 
-![image](https://github.com/victorup/Taobao-Data-Analysis/blob/master/images/ipad%E4%BB%B7%E6%A0%BCKmeans%E8%81%9A%E7%B1%BB.png)
+![image](https://github.com/victorup/Taobao-Data-Analysis/blob/master/images/%E6%B7%98%E5%AE%9D%E5%95%86%E5%93%81%E6%8E%A8%E8%8D%90.png)
 
 图17 用户商品推荐效果图
 
