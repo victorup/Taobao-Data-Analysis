@@ -109,6 +109,12 @@
 ![image]()
 图16 商品价格及交易量气泡图
 
+10) 根据用户的输入条件，从数据库中找到与要求匹配的商品进行推荐
+
+![image](https://github.com/victorup/Taobao-Data-Analysis/blob/master/images/ipad%E4%BB%B7%E6%A0%BCKmeans%E8%81%9A%E7%B1%BB.png)
+
+图17 用户商品推荐效果图
+
 ## 课题数据的可视化过程及工具
 - 将整理好的数据利用python中matplotlib库可视化
 - 将数据导入到Excel表中，利用Excel图表工具可视化
